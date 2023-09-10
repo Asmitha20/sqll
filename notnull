@@ -1,0 +1,7 @@
+/*create table Customer(Id int NOT NULL,Name varchar(20) NOT NULL,Age int NOT NULL,Address char(25),Salary decimal(18,2),Primary key(Id));*/
+/*Alter table Customer*/
+/*insert into Customer(Id,Name,Age,Address,Salary) values (1,'Amitha',20,'Kovai',28.00);*/
+/*insert into Customer values (2,'Arya',22,'Kerla',28.09);*/
+/*select * from Customer;*/
+Alter table Customer
+Modify Age int NOT NULL;
